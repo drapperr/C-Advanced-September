@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "4. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Supermarket", "5. Supermarket\5. Supermarket.csproj", "{6B6951D5-13CA-46D9-8550-7131B8DF5B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Hot Potato", "6. Hot Potato\6. Hot Potato.csproj", "{C07CA746-EA64-405A-A118-9CA7D76CC10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Traffic Jam", "7. Traffic Jam\7. Traffic Jam.csproj", "{A437F77B-0841-46B3-AA1B-E523BB646265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{6B6951D5-13CA-46D9-8550-7131B8DF5B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B6951D5-13CA-46D9-8550-7131B8DF5B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B6951D5-13CA-46D9-8550-7131B8DF5B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07CA746-EA64-405A-A118-9CA7D76CC10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07CA746-EA64-405A-A118-9CA7D76CC10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07CA746-EA64-405A-A118-9CA7D76CC10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07CA746-EA64-405A-A118-9CA7D76CC10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A437F77B-0841-46B3-AA1B-E523BB646265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A437F77B-0841-46B3-AA1B-E523BB646265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A437F77B-0841-46B3-AA1B-E523BB646265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A437F77B-0841-46B3-AA1B-E523BB646265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
