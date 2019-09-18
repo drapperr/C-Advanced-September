@@ -9,60 +9,46 @@ namespace _08._Balanced_Parenthesis
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            Stack<char> leftSide = new Stack<char>(input);
-            Stack<char> rightSide = new Stack<char>();
+            Stack<char> stack = new Stack<char>();
 
-            for (int i = 0; i < input.Length/2; i++)
-            {
-                char ch = leftSide.Pop();
-                if (ch == '{')
-                {
-                    rightSide.Push('}');
-                }
-                else if (ch == '}')
-                {
-                    rightSide.Push('{');
-                }
-                else if (ch == '[')
-                {
-                    rightSide.Push(']');
-                }
-                else if (ch == ']')
-                {
-                    rightSide.Push('[');
-                }
-                else if (ch == '(')
-                {
-                    rightSide.Push(')');
-                }
-                else if (ch == ')')
-                {
-                    rightSide.Push('(');
-                }
-                else
-                {
-                    rightSide.Push(leftSide.Pop());
-                }
-            }
-            bool balanced = true;
-
-            for (int i = 0; i < input.Length/2; i++)
-            {
-                if (leftSide.Pop()!=rightSide.Pop())
-                {
-                    balanced = false;
-                    break;
-                }
-            }
-
-            if (balanced)
-            {
-                Console.WriteLine("YES");
-            }
-            else
+            if (input.Length % 2 != 0)
             {
                 Console.WriteLine("NO");
+                return;
             }
+
+            foreach (char ch in input)
+            {
+                switch (ch)
+                {
+                    case '(':
+                    case '{':
+                    case '[':
+                        stack.Push(ch);
+                        break;
+                    default:
+                        if ((ch == ')' || ch == '}' || ch == ']') && stack.Count > 0)
+                        {
+                            if (stack.Peek() == '(' && ch == ')' || stack.Peek() == '{' && ch == '}' || stack.Peek() == '[' && ch == ']')
+                            {
+                                stack.Pop();
+                            }
+                            else
+                            {
+                                Console.WriteLine("NO");
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("NO");
+                            return;
+                        }
+                        break;
+                }
+            }
+            Console.WriteLine("YES");
+
         }
     }
 }
