@@ -15,7 +15,7 @@ namespace _7._Traffic_Jam
 
             string input = string.Empty;
 
-            while ((input = Console.ReadLine()) != "en")
+            while ((input = Console.ReadLine()) != "end")
             {
                 if (input == "green")
                 {
