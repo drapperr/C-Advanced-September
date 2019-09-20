@@ -19,36 +19,35 @@ namespace _08._Balanced_Parenthesis
 
             foreach (char ch in input)
             {
-                switch (ch)
+                if (ch == '(' || ch == '{' || ch == '[')
                 {
-                    case '(':
-                    case '{':
-                    case '[':
-                        stack.Push(ch);
-                        break;
-                    default:
-                        if ((ch == ')' || ch == '}' || ch == ']') && stack.Count > 0)
+                    stack.Push(ch);
+                }
+                else 
+                {
+                    if ((ch == ')' || ch == '}' || ch == ']') && stack.Count > 0)
+                    {
+                        if (stack.Peek() == '(' && ch == ')' 
+                            || stack.Peek() == '{' && ch == '}' 
+                            || stack.Peek() == '[' && ch == ']')
                         {
-                            if (stack.Peek() == '(' && ch == ')' || stack.Peek() == '{' && ch == '}' || stack.Peek() == '[' && ch == ']')
-                            {
-                                stack.Pop();
-                            }
-                            else
-                            {
-                                Console.WriteLine("NO");
-                                return;
-                            }
+                            stack.Pop();
                         }
                         else
                         {
                             Console.WriteLine("NO");
                             return;
                         }
-                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("NO");
+                        return;
+                    }
                 }
             }
             Console.WriteLine("YES");
-
         }
+
     }
 }
