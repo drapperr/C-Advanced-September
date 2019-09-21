@@ -9,6 +9,7 @@ namespace _09._Simple_Text_Editor
     {
         static void Main(string[] args)
         {
+<<<<<<< .mine
             int countOfOperations = int.Parse(Console.ReadLine());
             StringBuilder text = new StringBuilder();
             Stack<string> stack = new Stack<string>();
@@ -63,6 +64,62 @@ namespace _09._Simple_Text_Editor
                     }
                 }
             }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
         }
     }
 }
