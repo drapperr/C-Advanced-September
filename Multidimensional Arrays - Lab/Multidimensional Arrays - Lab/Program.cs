@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Multidimensional_Arrays___Lab
+namespace _1._Sum_Matrix_Elements
 {
     class Program
     {
