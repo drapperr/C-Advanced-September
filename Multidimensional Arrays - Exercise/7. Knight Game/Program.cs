@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 namespace _7._Knight_Game
 {
     class Program
@@ -11,12 +9,13 @@ namespace _7._Knight_Game
             int n = int.Parse(Console.ReadLine());
             matrix = new char[n, n];
             PopulateMatrix();
-            int maxAttacks = -1;
+
             int knightrow = 0;
             int knightcol = 0;
             int counter = 0;
             while (true)
             {
+                int maxAttacks = 0;
                 for (int row = 0; row < matrix.GetLength(0); row++)
                 {
                     for (int col = 0; col < matrix.GetLength(1); col++)
@@ -57,26 +56,26 @@ namespace _7._Knight_Game
                                 currenAttacks++;
                             }
                         }
-                        if (currenAttacks>maxAttacks)
+                        if (currenAttacks > maxAttacks)
                         {
-                            maxAttacks=currenAttacks;
+                            maxAttacks = currenAttacks;
                             knightrow = row;
                             knightcol = col;
                         }
                     }
                 }
-                if (maxAttacks!=0)
+                if (maxAttacks != 0)
                 {
                     matrix[knightrow, knightcol] = 'O';
                     counter++;
-                    maxAttacks = 0;
+
                 }
                 else
                 {
+                    Console.WriteLine(counter);
                     break;
                 }
             }
-            Console.WriteLine(counter);
         }
         private static bool IsValid(int row, int col)
         {
