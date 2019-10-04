@@ -10,24 +10,24 @@ namespace Problem_1._Even_Lines
         static void Main(string[] args)
         {
             char[] symbols = new char[] { '-', ',', '.', '!', '?' };
-            int lineNum = 0;
+
             using (StreamReader reader = new StreamReader("text.txt"))
             {
+                int lineNum = 0;
                 while (!reader.EndOfStream)
                 {
-                    var line = reader.ReadLine().Split(' ');
+                    StringBuilder line = new StringBuilder(reader.ReadLine());
+
                     if (lineNum % 2 == 0)
                     {
-                        StringBuilder sb = new StringBuilder();
-                        sb.Append(string.Join(" ", line.Reverse()));
-                        for (int i = 0; i < sb.Length; i++)
+                        for (int i = 0; i < line.Length; i++)
                         {
-                            if (symbols.Contains(sb[i]))
+                            if (symbols.Contains(line[i]))
                             {
-                                sb[i] = '@';
+                                line[i] = '@';
                             }
                         }
-                        Console.WriteLine(sb);
+                        Console.WriteLine(string.Join(" ", line.ToString().Split(' ').Reverse()));
                     }
                     lineNum++;
                 }
