@@ -9,17 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excel Functions", "Excel Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{B2CAD2A5-F6B0-4831-954B-7E698B8EF898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Door Lock", "Door Lock\Door Lock.csproj", "{2F3E859C-9AB9-462D-A2EC-95585CF67985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Door Lock", "Door Lock\Door Lock.csproj", "{2F3E859C-9AB9-462D-A2EC-95585CF67985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{E81B328F-BDE1-4907-9466-F464CC02F4ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{E81B328F-BDE1-4907-9466-F464CC02F4ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tron Racers", "Tron Racers\Tron Racers.csproj", "{B79B889C-1357-4358-AC02-6303E0463C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tron Racers", "Tron Racers\Tron Racers.csproj", "{B79B889C-1357-4358-AC02-6303E0463C15}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heroes", "Heroes\Heroes.csproj", "{4B37A176-81BE-43DE-8B69-B26C3EFAA66A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trojan Invasion", "Trojan Invasion\Trojan Invasion.csproj", "{9E367B94-9EAE-4922-AA9A-51D96AF3F911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trojan Invasion", "Trojan Invasion\Trojan Invasion.csproj", "{9E367B94-9EAE-4922-AA9A-51D96AF3F911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelensAbduction", "HelensAbduction\HelensAbduction.csproj", "{9CED08A5-3267-44D9-9658-9D423988E9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelensAbduction", "HelensAbduction\HelensAbduction.csproj", "{9CED08A5-3267-44D9-9658-9D423988E9EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FightingArena", "FightingArena\FightingArena\FightingArena.csproj", "{7110BEFC-CF34-4E4D-BA2B-A743B3FFAAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceshipCrafting", "SpaceshipCrafting\SpaceshipCrafting.csproj", "{D595D046-3D60-4612-9E80-6DCE43D4C423}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceStationRecruitment", "SpaceStationRecruitment\SpaceStationRecruitment.csproj", "{87DD932C-B406-4C58-9531-D1A80AC8D566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceStationEstablishment", "SpaceStationEstablishment\SpaceStationEstablishment.csproj", "{B1FDB26A-551E-4CD1-B355-127B27961F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{9CED08A5-3267-44D9-9658-9D423988E9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CED08A5-3267-44D9-9658-9D423988E9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CED08A5-3267-44D9-9658-9D423988E9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7110BEFC-CF34-4E4D-BA2B-A743B3FFAAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7110BEFC-CF34-4E4D-BA2B-A743B3FFAAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7110BEFC-CF34-4E4D-BA2B-A743B3FFAAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7110BEFC-CF34-4E4D-BA2B-A743B3FFAAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D595D046-3D60-4612-9E80-6DCE43D4C423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D595D046-3D60-4612-9E80-6DCE43D4C423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D595D046-3D60-4612-9E80-6DCE43D4C423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D595D046-3D60-4612-9E80-6DCE43D4C423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DD932C-B406-4C58-9531-D1A80AC8D566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DD932C-B406-4C58-9531-D1A80AC8D566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DD932C-B406-4C58-9531-D1A80AC8D566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DD932C-B406-4C58-9531-D1A80AC8D566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FDB26A-551E-4CD1-B355-127B27961F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FDB26A-551E-4CD1-B355-127B27961F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FDB26A-551E-4CD1-B355-127B27961F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FDB26A-551E-4CD1-B355-127B27961F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
