@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp", "DatingApp\DatingApp.csproj", "{ECF54019-2E37-449B-99B8-A20B27875CB7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWorm", "BookWorm\BookWorm.csproj", "{FC0D11DB-BDA0-4C01-85F4-98CFD5141E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingApp", "DatingApp\DatingApp.csproj", "{ECF54019-2E37-449B-99B8-A20B27875CB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbits", "Rabbits\Rabbits.csproj", "{57744859-C600-48C6-BB99-99C6052D6681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWorm2", "BookWorm2\BookWorm2.csproj", "{13892F99-C400-4D17-8D47-F2084A71A659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWorm2", "BookWorm2\BookWorm2.csproj", "{13892F99-C400-4D17-8D47-F2084A71A659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{ECF54019-2E37-449B-99B8-A20B27875CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF54019-2E37-449B-99B8-A20B27875CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF54019-2E37-449B-99B8-A20B27875CB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC0D11DB-BDA0-4C01-85F4-98CFD5141E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC0D11DB-BDA0-4C01-85F4-98CFD5141E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC0D11DB-BDA0-4C01-85F4-98CFD5141E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC0D11DB-BDA0-4C01-85F4-98CFD5141E28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57744859-C600-48C6-BB99-99C6052D6681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57744859-C600-48C6-BB99-99C6052D6681}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57744859-C600-48C6-BB99-99C6052D6681}.Release|Any CPU.ActiveCfg = Release|Any CPU
